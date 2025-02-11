@@ -153,9 +153,9 @@
 		visited every tile it can reach, so try not to path to the impossible.
 	
 """
+class_name HexGrid
 extends RefCounted
 
-var HexCell = preload("./HexCell.gd")
 # Duplicate these from HexCell for ease of access
 const DIR_N = Vector3(0, 1, -1)
 const DIR_NE = Vector3(1, 0, -1)

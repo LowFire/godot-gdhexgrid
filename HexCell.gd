@@ -60,6 +60,7 @@
 		the start (current) hex, as well as the final target.
 
 """
+class_name HexCell
 extends Resource
 #warning-ignore-all:unused_class_variable
 
