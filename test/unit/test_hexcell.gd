@@ -6,7 +6,7 @@ class TestNew:
 	var HexCell = load("res://HexCell.gd")
 	var cell
 	
-	func setup():
+	func before_each():
 		cell = null
 		
 	
@@ -34,7 +34,7 @@ class TestConversions:
 	var HexCell = load("res://HexCell.gd")
 	var cell
 	
-	func setup():
+	func before_each():
 		cell = HexCell.new()
 		
 	
@@ -56,7 +56,7 @@ class TestCoords:
 	var HexCell = load("res://HexCell.gd")
 	var cell
 	
-	func setup():
+	func before_each():
 		cell = HexCell.new()
 		
 	
@@ -103,7 +103,7 @@ class TestNearby:
 	var HexCell = load("res://HexCell.gd")
 	var cell
 	
-	func setup():
+	func before_each():
 		cell = HexCell.new(Vector2(1, 2))
 	
 	func check_expected(cells, expected):
@@ -212,7 +212,7 @@ class TestBetweenTwo:
 	var HexCell = load("res://HexCell.gd")
 	var cell
 	
-	func setup():
+	func before_each():
 		cell = HexCell.new(Vector2(1, 2))
 	
 	func test_distance():
