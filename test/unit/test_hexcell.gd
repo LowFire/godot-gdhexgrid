@@ -3,7 +3,6 @@ extends "res://addons/gut/test.gd"
 class TestNew:
 	extends "res://addons/gut/test.gd"
 	
-	var HexCell = load("res://HexCell.gd")
 	var cell
 	
 	func before_each():
@@ -31,7 +30,6 @@ class TestNew:
 class TestConversions:
 	extends "res://addons/gut/test.gd"
 	
-	var HexCell = load("res://HexCell.gd")
 	var cell
 	
 	func before_each():
@@ -53,7 +51,6 @@ class TestConversions:
 class TestCoords:
 	extends "res://addons/gut/test.gd"
 	
-	var HexCell = load("res://HexCell.gd")
 	var cell
 	
 	func before_each():
@@ -100,7 +97,6 @@ class TestCoords:
 class TestNearby:
 	extends "res://addons/gut/test.gd"
 	
-	var HexCell = load("res://HexCell.gd")
 	var cell
 	
 	func before_each():
@@ -209,7 +205,6 @@ class TestNearby:
 class TestBetweenTwo:
 	extends "res://addons/gut/test.gd"
 	
-	var HexCell = load("res://HexCell.gd")
 	var cell
 	
 	func before_each():

@@ -1,7 +1,5 @@
 extends "res://addons/gut/test.gd"
 
-var HexCell = load("res://HexCell.gd")
-var HexGrid = load("res://HexGrid.gd")
 var grid
 var map
 # This is the hex map we'll test with:
